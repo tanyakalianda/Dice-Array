@@ -21,7 +21,7 @@ public class Dice
 	public int roll() //random() returns double value with positive sign
 	{
 		numRolls++;
-		int roll = (int)(Math.random()*6)+1;
+		int roll = (int)(Math.random()*6)+1;           //(int) casts as an integer
 		return roll;
 		//local variable -> should not be a field b/c computer is not permanently storing it 
 	
